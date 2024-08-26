@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body class="presentacion">
+    <header class="header">
+        <a href="https://www.aluracursos.com/" rel="">
+            <img class="logo__alura" src="./images/Logo.png">
+        </a>
+    </header>
+    <main>
+        <section class="presentacion__contenido">
+            <div class="ingresos">
+                <h1 class="titulos">Encriptemos un texto</h1>
+                    <p></p>
+                    <p class="texto__auxiliar">Ingresa el texto que deseas encriptar</p>
+                    <p></p>
+                    <textarea class="ingreso__texto" placeholder="Escribe algo..."></textarea>
+                    <p class="texto__auxiliar"><img class="exclamacion" src="./images/bi_exclamation-circle-fill.png">Utiliza letras minúsculas y sin acentos</p>
+                <div class="botones">
+                    <button class="boton__1" onclick="boton__1()">Encriptar</button>
+                    <button class="boton__2" onclick="boton__2()">Desencriptar</button>
+                </div>
+            </div>
+            <div class="salidas">
+                <h2 class="titulos">Revisa el resultado</h2>
+                <p></p>
+                <p></p>
+                <div class="textarea-content">
+                    <img src = "./images/muneco.png" class = "background_image" alt = "Fondo">
+                    <textarea class="salida__texto"></textarea>
+                </div>
+                <p class="texto__auxiliar">El texto que encuentras en esta caja se encuentra encriptado, copialo y usalo en tus mensajes</p>
+                <div class="botones">
+                    <button class="boton__3" onclick="boton__3()">Copiar</button>
+                </div>
+            </div>
+            <p></p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <h3 class="titulos">Derechos de Autor</h3>
+            <p class="texto__auxiliar">Elaborado por Kiba Chaser</p>
+            <p class="texto__auxiliar">Agosto, 2024</p>
+            <h4 class="titulos">Contáctanos</h4>
+            <p class="texto__auxiliar">E-Mail: orcg.quimica@gmail.com</p>
+            <p class="texto__auxiliar">WhatsApp: 3155147673</p>
+            <a href="https://github.com/KibaChaser?tab=repositories">
+                <img class="exclamacion" src="./images/github-logo_icon-icons.com_73546.png">
+            </a>
+            <a href="https://www.linkedin.com/in/kibacepeda/">
+                <img class="exclamacion" src="./images/linkedin_black_logo_icon_147114.png">
+            </a>
+        </div>
+    </footer>
+    <script src="./scripts/encriptador.js"></script>
+</body>
+</html>
